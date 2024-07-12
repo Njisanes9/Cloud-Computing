@@ -59,19 +59,29 @@ Businesses use various types of external or public cloud resources that require 
 Cloud resources come with a contractual agreement, and it is know as Service Level Agreement(SLA). The SLA outlines what the provider is delivering, along with the customer's responsibilities. The agreement should outline characteristics like availability, accuracy, response time, throughput, and security.
 
 
+# MICROSOFT AZURE
 
 
+# Core Architecture and Resource Management Concepts
+
+When it comes to resource management, an organization may need its administrators to properly set up the core structure in Microsoft Azure.
+
+Here are 4 level for organizing organization's resource in Microsoft Azure: 
+- Management groups
+- Subscriptions
+- Resource groups
+- Resources
+
+Azure management groups is the the top level of the core structure of managing cloud resources.
+Management groups are where Azure administartors manage everything about user access, compliance, and policies for subscriptions.
+ 
+- **Azure subscriptions** - are like a container for every user account and the resources the have accessed or used within the subscriptions.
+- **Azure Resource Groups** - act as a container where resources like servers, web applications, databases, storage, monitoring etc. are deployed, managed and stored.
+- **Azure Resources** - is the combination of services you create on the Azure platform, they consist mainly of web applications, databases, servers and virtual machines. These resources or services must be added into a resource group.
+- **Azure Resource Manager** - is the management and deployment service providing users the capability to add, edit and delete resources in Azure. With the uses of ARM, the organization can manage user access control and organize resources securely even after deployement.
 
 
-
-
-
-
-
-
-
-
-
+# AZURE GEOGRAPHIES & AVAILABILITY ZONES
 
 
 
