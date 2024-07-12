@@ -81,9 +81,15 @@ Management groups are where Azure administartors manage everything about user ac
 - **Azure Resource Manager** - is the management and deployment service providing users the capability to add, edit and delete resources in Azure. With the uses of ARM, the organization can manage user access control and organize resources securely even after deployement.
 
 
-# AZURE GEOGRAPHIES & AVAILABILITY ZONES
+# Azure Roles
 
+To control access ti resources in Azure, there to need to be a set up and enforcement of user permissions by using Azure Roles.
 
+Role assignment elements: 
+
+**Security Principal** - is an object representing a security identity that can be authenticated and authorized to access resources. They are used to grant or deny permissions.
+**Role Definition** - is a set of permissions for Azure users or service principals to utilize Azure resources. Defines permissions for security principals to access resources. May allow reading, writing and deleting Azure subscription resources.
+**Scope** - determines the level at which the role assignment applies. Defines a set of resources the role assignment applies to and can be set at various levels in the  Azure resource hierarchy, including the management group, subscription, resource group, and indivisual resource levels.
 
 
 
